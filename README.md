@@ -22,10 +22,11 @@ Go to File -> Project Structure -> Libraries and add the libs/ as a library to t
 
 ### 3. Add VM options
 
-Go to Preferences (File -> Settings) -> Appearance & Behavior -> Path Variables, define the name of the variable as PATH_TO_FX, browse to the lib folder of the libs/ to set its value, and click apply. 
+Go to Preferences (File -> Settings) -> Appearance & Behavior -> Path Variables, define the name of the variable as PATH_TO_FX, browse to the lib folder of the `sdk/javafx-sdk-18.0.1/lib/` to set its value, and click apply.  Also, you can download the latest version of `JavaFX`.
 
+  
 
-click on Run -> Edit Configurations... and add these VM options:
+click on Run -> Edit Configurations... and add VM options:
 
 ```
 --module-path ${PATH_TO_FX} --add-modules javafx.controls,javafx.fxml
@@ -35,15 +36,19 @@ click on Run -> Edit Configurations... and add these VM options:
 
 The path that saves the database information is `gczhao/database/DatabaseHandler.java`. Remember to replace these settings with your own database information.
 
-### 5. Run the project
+### 5. Execute SQL Statement
+
+The script is located at `sql/script.sql`, which includes DDL and DML.
+
+### 6. Run the project
 
 Click Run -> Run... to run the project, now it should work fine.  
 
+​					
 
 
 
-
-
+## Other
 
 email guanchenzhao@gmail.com for more information.
 
