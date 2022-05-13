@@ -46,6 +46,10 @@ Click Run -> Run... to run the project, now it should work fine.
 
 ​					
 
+## Demo
+
+[Click](https://youtu.be/U4hvyrmi904) to watch the demo video.
+
 
 
 ## Other
