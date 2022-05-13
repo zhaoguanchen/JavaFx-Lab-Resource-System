@@ -1,5 +1,7 @@
 # JavaFX Project
 
+This is a Lab Resource Sharing System that was developed with JavaFx.
+
 ## Tech Stack
 
 **Framework**
@@ -22,7 +24,7 @@ Go to File -> Project Structure -> Libraries and add the libs/ as a library to t
 
 ### 3. Add VM options
 
-Go to Preferences (File -> Settings) -> Appearance & Behavior -> Path Variables, define the name of the variable as PATH_TO_FX, browse to the lib folder of the `sdk/javafx-sdk-18.0.1/lib/` to set its value, and click apply.  Also, you can download the latest version of `JavaFX`.
+Go to Preferences (File -> Settings) -> Appearance & Behavior -> Path Variables, define the name of the variable as PATH_TO_FX, browse to the lib folder of the `/libs` to set its value, and click apply.  Also, you can download the latest version of `JavaFX` and redefine the variable path.
 
   
 
@@ -49,8 +51,6 @@ Click Run -> Run... to run the project, now it should work fine.
 ## Demo
 
 [Click](https://youtu.be/U4hvyrmi904) to watch the demo video.
-
-
 
 ## Other
 
