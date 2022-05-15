@@ -1,0 +1,24 @@
+<component name="libraryTable">
+  <library name="libs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/log4j-core-2.11.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/javafx.controls.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/commons-logging-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/javafx.swing.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/javafx.fxml.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/mysql-connector-java-8.0.23.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/javafx.graphics.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/javafx.media.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/log4j-api-2.11.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/commons-lang3-3.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/slf4j-api-1.7.25.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/commons-codec-1.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/javafx.web.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/javafx.base.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/slf4j-simple-1.7.25.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/javafx-swt.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

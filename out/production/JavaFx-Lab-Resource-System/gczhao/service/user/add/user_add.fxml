@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gczhao.service.user.add.UserAddController">
+   <children>
+      <Pane layoutX="105.0" layoutY="6.0" prefHeight="331.0" prefWidth="367.0">
+         <children>
+            <Button fx:id="save" layoutX="79.0" layoutY="284.0" mnemonicParsing="false" onAction="#save" text="save" />
+            <Button fx:id="cancel" layoutX="218.0" layoutY="284.0" mnemonicParsing="false" onAction="#cancel" text="return" />
+            <Label layoutX="42.0" layoutY="22.0" text="account" />
+            <Label layoutX="42.0" layoutY="55.0" text="name" />
+            <Label layoutX="42.0" layoutY="87.0" text="email" />
+            <Label layoutX="42.0" layoutY="121.0" text="phone" />
+            <TextField fx:id="account" layoutX="138.0" layoutY="20.0" />
+            <TextField fx:id="name" layoutX="138.0" layoutY="53.0" />
+            <TextField fx:id="email" layoutX="138.0" layoutY="85.0" />
+            <TextField fx:id="phone" layoutX="138.0" layoutY="119.0" />
+            <Label layoutX="41.0" layoutY="157.0" text="PI_name" />
+            <Label layoutX="39.0" layoutY="195.0" text="lab_Training" />
+            <TextField fx:id="PI_name" layoutX="138.0" layoutY="152.0" />
+            <TextField fx:id="lab_training" layoutX="138.0" layoutY="190.0" />
+            <Label layoutX="37.0" layoutY="234.0" text="password" />
+            <TextField fx:id="password" layoutX="138.0" layoutY="229.0" />
+         </children>
+      </Pane>
+   </children>
+</Pane>
